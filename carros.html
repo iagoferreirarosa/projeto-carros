@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>FP Sellection</title>
+    <link rel="stylesheet" href="styles/styleCarro.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo fp">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li style="text-decoration: underline; color: #beff1d;">Carros</li>
+                <li><a href="">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="containerFlex">
+            <div class="itensFlex">
+                <img src="img/1.png" alt="911 turbo">
+                <div class="linha"></div>
+                <span>
+                    <h2>Porsche</h2>
+                    <p>911 Turbo</p>
+                    <button onclick="bPorsche()">Saiba Mais</button>
+                </span>
+            </div>
+            <div class="itensFlex" id="ferrari-Id">
+                <img id="ferrari-Img" src="img/ferrari.png" alt="Ferrari">
+                <div class="linha"></div>
+                <span>
+                    <h2>Ferrari</h2>
+                    <p>Spider</p>
+                    <button onclick="bFerrari()">Saiba Mais</button>
+                </span>
+            </div>
+            <div class="itensFlex">
+                <img src="img/3.png" alt="Lamborghini">
+                <div class="linha"></div>
+                <span>
+                    <h2>Lamborghini</h2>
+                    <p>Hurancan 2015</p>
+                    <button onclick="bLamborghini()">Saiba Mais</button>
+                </span>
+            </div>
+            <div class="itensFlex">
+                <img src="img/4.png" alt="jaguar f-turbo">
+                <div class="linha"></div>
+                <span>
+                    <h2>Jaguar</h2>
+                    <p>F-Type</p>
+                    <button onclick="bJaguar()">Saiba Mais</button>
+                </span>
+
+            </div>
+        </div>
+
+        <div class="detalhes">
+            <div class="caixaDetalhes" id="porscheCaixa">
+                <img class="imgD" src="img/turbo911img.jpg" alt="Porsche">
+                <div class="linhaCaixa"></div>
+                <div class="textoD">
+                    <h2>Turbo 911</h2>
+                    <h3>Porsche</h3>
+                    <p>Nossos engenheiros gostam de se referir a ele como o carro esportivo mais perfeito de todos.
+                        Extremamente esportivo e, ao mesmo tempo, confortável e irrestritamente apto para o uso diário.
+                        Os modelos 911 Turbo seguem de forma consistente este caminho.</p>
+                </div>
+
+            </div>
+            <div class="caixaDetalhes" id="ferrariCaixa">
+                <img class="imgD" src="img/spiderimg.webp" alt="spider">
+                <div class="linhaCaixa"></div>
+                <div class="textoD">
+                    <h2>Spider</h2>
+                    <h3>Ferrari</h3>
+                    <p>Como o primeiro spider híbrido plug-in de produção do Cavalo Empinado, o SF90 Spider define novos
+                        padrões de desempenho e inovação não apenas para a gama da marca, mas para todo o setor de
+                        carros esportivos.</p>
+                </div>
+            </div>
+            <div class="caixaDetalhes" id="lamborghiniCaixa">
+                <img class="imgD" src="img/2015.jpg" alt="lamborghini">
+                <div class="linhaCaixa"></div>
+                <div class="textoD">
+                    <h2>Hurancan 2015</h2>
+                    <h3>Lamborghini</h3>
+                    <p>O Lamborghini Hurancan utiliza um motor 5.2 V10 a gasolina capaz de gerar 610 cv de potência e
+                        57,1 kgfm de torque. A única opção de transmissão é uma caixa automatizada de dupla embreagem
+                        com sete velocidades. A tração é integral. Com esse conjunto o esportivo acelera de 0 a 100 km/h
+                        em 3,2 segundos com máxima de 325 km/h.</p>
+                </div>
+            </div>
+            <div class="caixaDetalhes" id="jaguarCaixa">
+                <img class="imgD" src="img/f-type.webp" alt="jaguar">
+                <div class="linhaCaixa"></div>
+                <div class="textoD">
+                    <h2>F-type</h2>
+                    <h3>Jaguar</h3>
+                    <p>É praticamente unânime exaltar as engenharias alemã ou italiana como as mais refinadas do mundo,
+                        mas a britânica também tem joias com uma lapidação impecável. Um desses exemplos é o Jaguar
+                        F-Type, que chega ao mercado brasileiro de cara nova, quase um ano depois de ser reestilizado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
